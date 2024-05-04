@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# db account keys
+utils/db/serviceAccountKey.json
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# ENV
+.env
+.env.*
+.env.local
+.env.production
+
+# Testing
+pages/api/temp.ts
+
+# venv
+venv/
